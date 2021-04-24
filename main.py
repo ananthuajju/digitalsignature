@@ -25,4 +25,4 @@ if option == 2:
     try:
         verifysignature.verify_signature(file_name,signature_file,public_key)
     except:
-        print('Signature could not be verified')
+        print('Signature verification failed')
